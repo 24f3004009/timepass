@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1000" role="img" aria-label="motor-wiring wiring diagram">
+<rect x="0" y="0" width="1440" height="1000" fill="#ffffff" stroke="#ffffff" stroke-width="0"/>
+<text x="48" y="53" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="700" text-anchor="start" fill="#162c3d">Motor control: 12 signal wires</text>
+<text x="48" y="86" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#526675">Remove ENA/ENB jumpers on both drivers. GPIO labels are the actual ESP32 GPIO numbers.</text>
+<polyline points="48,108 1392,108" fill="none" stroke="#aabac4" stroke-width="1" stroke-linejoin="round"/>
+<text x="48" y="974" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#526675">TIMEPASS / SCHEMATIC TERMINALS, NOT PHYSICAL HEADER POSITIONS</text>
+<text x="1392" y="974" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" text-anchor="end" fill="#526675">01 / 03</text>
+<rect x="60" y="155" width="350" height="730" fill="#f4f7fa" stroke="#aabac4" stroke-width="2"/>
+<text x="235" y="190" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" text-anchor="middle" fill="#162c3d">NodeMCU ESP32S</text>
+<text x="235" y="217" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="middle" fill="#526675">Flash target: motors</text>
+<rect x="740" y="175" width="290" height="335" fill="#f4f7fa" stroke="#aabac4" stroke-width="2"/>
+<text x="885" y="207" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#162c3d">L298N driver 1</text>
+<rect x="740" y="545" width="290" height="335" fill="#f4f7fa" stroke="#aabac4" stroke-width="2"/>
+<text x="885" y="577" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#162c3d">L298N driver 2</text>
+<text x="387" y="246" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="end" fill="#162c3d">GPIO16</text>
+<polyline points="410,240 740,240" fill="none" stroke="#246eb0" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="410" cy="240" r="4" fill="#246eb0" stroke="#246eb0" stroke-width="1"/>
+<circle cx="740" cy="240" r="4" fill="#246eb0" stroke="#246eb0" stroke-width="1"/>
+<text x="754" y="246" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" fill="#246eb0">IN1</text>
+<text x="387" y="288" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="end" fill="#162c3d">GPIO17</text>
+<polyline points="410,282 740,282" fill="none" stroke="#246eb0" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="410" cy="282" r="4" fill="#246eb0" stroke="#246eb0" stroke-width="1"/>
+<circle cx="740" cy="282" r="4" fill="#246eb0" stroke="#246eb0" stroke-width="1"/>
+<text x="754" y="288" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" fill="#246eb0">IN2</text>
+<text x="387" y="330" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="end" fill="#162c3d">GPIO25</text>
+<polyline points="410,324 740,324" fill="none" stroke="#7b43ac" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="410" cy="324" r="4" fill="#7b43ac" stroke="#7b43ac" stroke-width="1"/>
+<circle cx="740" cy="324" r="4" fill="#7b43ac" stroke="#7b43ac" stroke-width="1"/>
+<text x="754" y="330" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" fill="#7b43ac">ENA</text>
+<circle cx="500" cy="324" r="4" fill="#7b43ac" stroke="#7b43ac" stroke-width="1"/>
+<polyline points="500,324 500,328" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<rect x="496" y="328" width="8" height="10" fill="#ffffff" stroke="#354b5c" stroke-width="2"/>
+<polyline points="500,338 500,348" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="485,348 515,348" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="490,354 510,354" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="495,360 505,360" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<text x="520" y="353" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#354b5c">R1 10k</text>
+<text x="1215" y="209" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#162c3d">Front left</text>
+<circle cx="1215" cy="270" r="38" fill="#ffffff" stroke="#162c3d" stroke-width="2"/>
+<text x="1215" y="278" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#162c3d">M</text>
+<text x="1016" y="258" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="end" fill="#162c3d">OUT1</text>
+<polyline points="1030,252 1164,252 1164,260 1178,260" fill="none" stroke="#162c3d" stroke-width="3" stroke-linejoin="round"/>
+<text x="1016" y="294" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="end" fill="#162c3d">OUT2</text>
+<polyline points="1030,288 1164,288 1164,280 1178,280" fill="none" stroke="#162c3d" stroke-width="3" stroke-linejoin="round"/>
+<text x="1290" y="277" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#526675">12 V DC</text>
+<text x="387" y="372" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="end" fill="#162c3d">GPIO18</text>
+<polyline points="410,366 740,366" fill="none" stroke="#246eb0" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="410" cy="366" r="4" fill="#246eb0" stroke="#246eb0" stroke-width="1"/>
+<circle cx="740" cy="366" r="4" fill="#246eb0" stroke="#246eb0" stroke-width="1"/>
+<text x="754" y="372" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" fill="#246eb0">IN3</text>
+<text x="387" y="414" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="end" fill="#162c3d">GPIO19</text>
+<polyline points="410,408 740,408" fill="none" stroke="#246eb0" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="410" cy="408" r="4" fill="#246eb0" stroke="#246eb0" stroke-width="1"/>
+<circle cx="740" cy="408" r="4" fill="#246eb0" stroke="#246eb0" stroke-width="1"/>
+<text x="754" y="414" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" fill="#246eb0">IN4</text>
+<text x="387" y="456" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="end" fill="#162c3d">GPIO26</text>
+<polyline points="410,450 740,450" fill="none" stroke="#7b43ac" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="410" cy="450" r="4" fill="#7b43ac" stroke="#7b43ac" stroke-width="1"/>
+<circle cx="740" cy="450" r="4" fill="#7b43ac" stroke="#7b43ac" stroke-width="1"/>
+<text x="754" y="456" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" fill="#7b43ac">ENB</text>
+<circle cx="500" cy="450" r="4" fill="#7b43ac" stroke="#7b43ac" stroke-width="1"/>
+<polyline points="500,450 500,454" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<rect x="496" y="454" width="8" height="10" fill="#ffffff" stroke="#354b5c" stroke-width="2"/>
+<polyline points="500,464 500,474" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="485,474 515,474" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="490,480 510,480" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="495,486 505,486" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<text x="520" y="479" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#354b5c">R2 10k</text>
+<text x="1215" y="335" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#162c3d">Front right</text>
+<circle cx="1215" cy="396" r="38" fill="#ffffff" stroke="#162c3d" stroke-width="2"/>
+<text x="1215" y="404" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#162c3d">M</text>
+<text x="1016" y="384" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="end" fill="#162c3d">OUT3</text>
+<polyline points="1030,378 1164,378 1164,386 1178,386" fill="none" stroke="#162c3d" stroke-width="3" stroke-linejoin="round"/>
+<text x="1016" y="420" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="end" fill="#162c3d">OUT4</text>
+<polyline points="1030,414 1164,414 1164,406 1178,406" fill="none" stroke="#162c3d" stroke-width="3" stroke-linejoin="round"/>
+<text x="1290" y="403" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#526675">12 V DC</text>
+<text x="387" y="616" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="end" fill="#162c3d">GPIO21</text>
+<polyline points="410,610 740,610" fill="none" stroke="#246eb0" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="410" cy="610" r="4" fill="#246eb0" stroke="#246eb0" stroke-width="1"/>
+<circle cx="740" cy="610" r="4" fill="#246eb0" stroke="#246eb0" stroke-width="1"/>
+<text x="754" y="616" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" fill="#246eb0">IN1</text>
+<text x="387" y="658" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="end" fill="#162c3d">GPIO22</text>
+<polyline points="410,652 740,652" fill="none" stroke="#246eb0" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="410" cy="652" r="4" fill="#246eb0" stroke="#246eb0" stroke-width="1"/>
+<circle cx="740" cy="652" r="4" fill="#246eb0" stroke="#246eb0" stroke-width="1"/>
+<text x="754" y="658" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" fill="#246eb0">IN2</text>
+<text x="387" y="700" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="end" fill="#162c3d">GPIO27</text>
+<polyline points="410,694 740,694" fill="none" stroke="#7b43ac" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="410" cy="694" r="4" fill="#7b43ac" stroke="#7b43ac" stroke-width="1"/>
+<circle cx="740" cy="694" r="4" fill="#7b43ac" stroke="#7b43ac" stroke-width="1"/>
+<text x="754" y="700" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" fill="#7b43ac">ENA</text>
+<circle cx="500" cy="694" r="4" fill="#7b43ac" stroke="#7b43ac" stroke-width="1"/>
+<polyline points="500,694 500,698" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<rect x="496" y="698" width="8" height="10" fill="#ffffff" stroke="#354b5c" stroke-width="2"/>
+<polyline points="500,708 500,718" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="485,718 515,718" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="490,724 510,724" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="495,730 505,730" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<text x="520" y="723" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#354b5c">R3 10k</text>
+<text x="1215" y="579" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#162c3d">Rear left</text>
+<circle cx="1215" cy="640" r="38" fill="#ffffff" stroke="#162c3d" stroke-width="2"/>
+<text x="1215" y="648" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#162c3d">M</text>
+<text x="1016" y="628" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="end" fill="#162c3d">OUT1</text>
+<polyline points="1030,622 1164,622 1164,630 1178,630" fill="none" stroke="#162c3d" stroke-width="3" stroke-linejoin="round"/>
+<text x="1016" y="664" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="end" fill="#162c3d">OUT2</text>
+<polyline points="1030,658 1164,658 1164,650 1178,650" fill="none" stroke="#162c3d" stroke-width="3" stroke-linejoin="round"/>
+<text x="1290" y="647" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#526675">12 V DC</text>
+<text x="387" y="742" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="end" fill="#162c3d">GPIO23</text>
+<polyline points="410,736 740,736" fill="none" stroke="#246eb0" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="410" cy="736" r="4" fill="#246eb0" stroke="#246eb0" stroke-width="1"/>
+<circle cx="740" cy="736" r="4" fill="#246eb0" stroke="#246eb0" stroke-width="1"/>
+<text x="754" y="742" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" fill="#246eb0">IN3</text>
+<text x="387" y="784" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="end" fill="#162c3d">GPIO32</text>
+<polyline points="410,778 740,778" fill="none" stroke="#246eb0" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="410" cy="778" r="4" fill="#246eb0" stroke="#246eb0" stroke-width="1"/>
+<circle cx="740" cy="778" r="4" fill="#246eb0" stroke="#246eb0" stroke-width="1"/>
+<text x="754" y="784" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" fill="#246eb0">IN4</text>
+<text x="387" y="826" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="end" fill="#162c3d">GPIO33</text>
+<polyline points="410,820 740,820" fill="none" stroke="#7b43ac" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="410" cy="820" r="4" fill="#7b43ac" stroke="#7b43ac" stroke-width="1"/>
+<circle cx="740" cy="820" r="4" fill="#7b43ac" stroke="#7b43ac" stroke-width="1"/>
+<text x="754" y="826" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" fill="#7b43ac">ENB</text>
+<circle cx="500" cy="820" r="4" fill="#7b43ac" stroke="#7b43ac" stroke-width="1"/>
+<polyline points="500,820 500,824" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<rect x="496" y="824" width="8" height="10" fill="#ffffff" stroke="#354b5c" stroke-width="2"/>
+<polyline points="500,834 500,844" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="485,844 515,844" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="490,850 510,850" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="495,856 505,856" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<text x="520" y="849" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#354b5c">R4 10k</text>
+<text x="1215" y="705" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#162c3d">Rear right</text>
+<circle cx="1215" cy="766" r="38" fill="#ffffff" stroke="#162c3d" stroke-width="2"/>
+<text x="1215" y="774" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#162c3d">M</text>
+<text x="1016" y="754" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="end" fill="#162c3d">OUT3</text>
+<polyline points="1030,748 1164,748 1164,756 1178,756" fill="none" stroke="#162c3d" stroke-width="3" stroke-linejoin="round"/>
+<text x="1016" y="790" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="end" fill="#162c3d">OUT4</text>
+<polyline points="1030,784 1164,784 1164,776 1178,776" fill="none" stroke="#162c3d" stroke-width="3" stroke-linejoin="round"/>
+<text x="1290" y="773" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#526675">12 V DC</text>
+<text x="387" y="866" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="end" fill="#162c3d">GND</text>
+<polyline points="410,860 465,860 465,870" fill="none" stroke="#354b5c" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="465,870 465,880" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="450,880 480,880" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="455,886 475,886" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="460,892 470,892" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<text x="754" y="496" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" fill="#354b5c">GND</text>
+<polyline points="740,490 655,490 655,498" fill="none" stroke="#354b5c" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="655,498 655,508" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="640,508 670,508" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="645,514 665,514" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="650,520 660,520" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<text x="754" y="866" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" fill="#354b5c">GND</text>
+<polyline points="740,860 655,860 655,868" fill="none" stroke="#354b5c" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="655,868 655,878" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="640,878 670,878" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="645,884 665,884" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="650,890 660,890" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<text x="90" y="900" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#526675">3.3 V logic; never connect GPIO to 5 V</text>
+<text x="48" y="925" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" fill="#162c3d">Blue = direction  |  Purple = PWM enable  |  R1-R4 = external 10k pulldowns to common GND</text>
+<text x="48" y="951" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#526675">Connect NodeMCU GND, both driver GNDs and all four resistor grounds together. Power wiring is separate.</text>
+</svg>

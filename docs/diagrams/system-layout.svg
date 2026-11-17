@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1000" role="img" aria-label="system-layout wiring diagram">
+<rect x="0" y="0" width="1440" height="1000" fill="#ffffff" stroke="#ffffff" stroke-width="0"/>
+<text x="48" y="53" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="700" text-anchor="start" fill="#162c3d">Robot layout and wireless links</text>
+<text x="48" y="86" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#526675">Three boards in use: two ESP32-CAMs + one NodeMCU ESP32S. Your second NodeMCU is spare.</text>
+<polyline points="48,108 1392,108" fill="none" stroke="#aabac4" stroke-width="1" stroke-linejoin="round"/>
+<text x="48" y="974" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#526675">TIMEPASS / SCHEMATIC TERMINALS, NOT PHYSICAL HEADER POSITIONS</text>
+<text x="1392" y="974" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" text-anchor="end" fill="#526675">02 / 03</text>
+<rect x="65" y="180" width="330" height="155" fill="#f4f7fa" stroke="#aabac4" stroke-width="2"/>
+<text x="230.0" y="218" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#162c3d">Front ESP32-CAM</text>
+<text x="230.0" y="253" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" fill="#526675">Firmware: front</text>
+<text x="230.0" y="281" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" fill="#526675">robot-front.local:81/stream</text>
+<rect x="65" y="430" width="330" height="155" fill="#f4f7fa" stroke="#aabac4" stroke-width="2"/>
+<text x="230.0" y="468" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#162c3d">Rear ESP32-CAM</text>
+<text x="230.0" y="503" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" fill="#526675">Firmware: rear</text>
+<text x="230.0" y="531" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" fill="#526675">robot-rear.local:81/stream</text>
+<rect x="550" y="305" width="300" height="150" fill="#f4f7fa" stroke="#aabac4" stroke-width="2"/>
+<text x="700.0" y="343" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#162c3d">2.4 GHz Wi-Fi</text>
+<text x="700.0" y="378" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" fill="#526675">Router / compatible hotspot</text>
+<text x="700.0" y="406" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" fill="#526675">Both cameras on same LAN</text>
+<rect x="1010" y="305" width="350" height="170" fill="#f4f7fa" stroke="#aabac4" stroke-width="2"/>
+<text x="1185.0" y="343" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#162c3d">Host PC</text>
+<text x="1185.0" y="378" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" fill="#526675">Python viewer + controller</text>
+<text x="1185.0" y="406" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" fill="#526675">Two live videos</text>
+<text x="1185.0" y="434" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" fill="#526675">Bluetooth Classic SPP</text>
+<polyline points="395,255 475,255 475,355 550,355" fill="none" stroke="#246eb0" stroke-width="3" stroke-linejoin="round" stroke-dasharray="10 8"/>
+<polyline points="538.0,361.0 550,355 538.0,349.0" fill="none" stroke="#246eb0" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="395,505 475,505 475,405 550,405" fill="none" stroke="#246eb0" stroke-width="3" stroke-linejoin="round" stroke-dasharray="10 8"/>
+<polyline points="538.0,411.0 550,405 538.0,399.0" fill="none" stroke="#246eb0" stroke-width="3" stroke-linejoin="round"/>
+<text x="420" y="210" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#246eb0">Wi-Fi video</text>
+<polyline points="850,380 1010,380" fill="none" stroke="#246eb0" stroke-width="3" stroke-linejoin="round" stroke-dasharray="10 8"/>
+<polyline points="998.0,386.0 1010,380 998.0,374.0" fill="none" stroke="#246eb0" stroke-width="3" stroke-linejoin="round"/>
+<rect x="1010" y="690" width="350" height="150" fill="#f4f7fa" stroke="#aabac4" stroke-width="2"/>
+<text x="1185.0" y="728" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#162c3d">NodeMCU ESP32S</text>
+<text x="1185.0" y="763" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" fill="#526675">Firmware: motors</text>
+<text x="1185.0" y="791" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" fill="#526675">Bluetooth: SurveillanceRobot</text>
+<polyline points="1185,475 1185,690" fill="none" stroke="#7b43ac" stroke-width="3" stroke-linejoin="round" stroke-dasharray="10 8"/>
+<polyline points="1179.0,678.0 1185,690 1191.0,678.0" fill="none" stroke="#7b43ac" stroke-width="3" stroke-linejoin="round"/>
+<text x="1210" y="560" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" fill="#7b43ac">Bluetooth</text>
+<text x="1210" y="590" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" fill="#7b43ac">commands</text>
+<rect x="545" y="690" width="300" height="150" fill="#f4f7fa" stroke="#aabac4" stroke-width="2"/>
+<text x="695.0" y="728" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#162c3d">2 x L298N drivers</text>
+<text x="695.0" y="763" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" fill="#526675">8 direction + 4 PWM wires</text>
+<text x="695.0" y="791" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" fill="#526675">See sheet 01</text>
+<rect x="65" y="690" width="330" height="150" fill="#f4f7fa" stroke="#aabac4" stroke-width="2"/>
+<text x="230.0" y="728" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#162c3d">4 independent motors</text>
+<text x="230.0" y="763" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" fill="#526675">Front left / front right</text>
+<text x="230.0" y="791" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" fill="#526675">Rear left / rear right</text>
+<polyline points="1010,765 845,765" fill="none" stroke="#246eb0" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="857.0,759.0 845,765 857.0,771.0" fill="none" stroke="#246eb0" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="545,765 395,765" fill="none" stroke="#162c3d" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="407.0,759.0 395,765 407.0,771.0" fill="none" stroke="#162c3d" stroke-width="3" stroke-linejoin="round"/>
+<text x="48" y="920" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" fill="#162c3d">The camera boards need only power wiring. No camera-to-NodeMCU signal wires are required.</text>
+<text x="48" y="949" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#526675">Wi-Fi carries video; Bluetooth carries motor commands. No wired camera-to-NodeMCU data link.</text>
+</svg>

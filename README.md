@@ -19,6 +19,8 @@ The cameras need no signal wires to the NodeMCU. All three boards communicate di
 
 ## Wire the robot
 
+The **[data-wiring guide](docs/data-wiring.md)** includes all twelve GPIO connections, shared ground, Wi-Fi/Bluetooth data paths and camera programming connections. Download the **[three-page schematic PDF](docs/diagrams/data-wiring-pack.pdf)** or the individual PNG/SVG diagrams linked in the guide.
+
 Follow **[the wiring and power guide](docs/wiring.md)** before powering the motors. In particular:
 
 - Remove the **ENA and ENB jumpers on both L298Ns**. The NodeMCU drives these four inputs with PWM for independent speed control.

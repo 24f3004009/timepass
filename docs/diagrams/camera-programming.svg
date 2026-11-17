@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1000" role="img" aria-label="camera-programming wiring diagram">
+<rect x="0" y="0" width="1440" height="1000" fill="#ffffff" stroke="#ffffff" stroke-width="0"/>
+<text x="48" y="53" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="700" text-anchor="start" fill="#162c3d">ESP32-CAM programming connections</text>
+<text x="48" y="86" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#526675">Manual USB-to-UART adapter: 3.3 V UART signal levels, independent regulated 5 V board power.</text>
+<polyline points="48,108 1392,108" fill="none" stroke="#aabac4" stroke-width="1" stroke-linejoin="round"/>
+<text x="48" y="974" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#526675">TIMEPASS / SCHEMATIC TERMINALS, NOT PHYSICAL HEADER POSITIONS</text>
+<text x="1392" y="974" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" text-anchor="end" fill="#526675">03 / 03</text>
+<rect x="65" y="190" width="355" height="490" fill="#f4f7fa" stroke="#aabac4" stroke-width="2"/>
+<text x="242.5" y="228" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#162c3d">USB-to-UART adapter</text>
+<text x="242.5" y="263" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" fill="#526675">USB connection to PC</text>
+<text x="242.5" y="291" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" fill="#526675">TXD / RXD at 3.3 V logic</text>
+<rect x="910" y="190" width="440" height="490" fill="#f4f7fa" stroke="#aabac4" stroke-width="2"/>
+<text x="1130.0" y="228" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#162c3d">ESP32-CAM</text>
+<text x="1130.0" y="263" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" fill="#526675">AI-Thinker + OV2640</text>
+<text x="1130.0" y="291" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" fill="#526675">Power through the 5V pin</text>
+<text x="395" y="346" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="end" fill="#162c3d">TXD</text>
+<text x="930" y="346" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="start" fill="#162c3d">U0R / RX / GPIO3</text>
+<polyline points="420,340 910,340" fill="none" stroke="#246eb0" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="898.0,346.0 910,340 898.0,334.0" fill="none" stroke="#246eb0" stroke-width="3" stroke-linejoin="round"/>
+<text x="395" y="431" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="end" fill="#162c3d">RXD</text>
+<text x="930" y="431" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="start" fill="#162c3d">U0T / TX / GPIO1</text>
+<polyline points="910,425 420,425" fill="none" stroke="#246eb0" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="432.0,419.0 420,425 432.0,431.0" fill="none" stroke="#246eb0" stroke-width="3" stroke-linejoin="round"/>
+<text x="395" y="516" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="end" fill="#162c3d">GND</text>
+<text x="930" y="516" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="start" fill="#162c3d">GND</text>
+<polyline points="420,510 910,510" fill="none" stroke="#354b5c" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="665,510 665,520" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="650,520 680,520" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="655,526 675,526" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="660,532 670,532" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="665" cy="510" r="4" fill="#354b5c" stroke="#354b5c" stroke-width="1"/>
+<text x="395" y="600" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="end" fill="#526675">VCC / 3V3</text>
+<text x="250" y="630" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="middle" fill="#526675">Leave adapter power pin disconnected</text>
+<text x="930" y="600" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="start" fill="#bf3434">5V</text>
+<polyline points="420,825 585,825 585,594 910,594" fill="none" stroke="#bf3434" stroke-width="4" stroke-linejoin="round"/>
+<rect x="65" y="760" width="355" height="140" fill="#f4f7fa" stroke="#aabac4" stroke-width="2"/>
+<text x="242.5" y="798" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#162c3d">Regulated 5 V supply</text>
+<text x="242.5" y="833" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" fill="#526675">Use a supply with enough current</text>
+<text x="242.5" y="861" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" fill="#526675">Connect its negative to GND</text>
+<polyline points="240,900 240,910" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="225,910 255,910" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="230,916 250,916" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="235,922 245,922" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<text x="930" y="650" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="start" fill="#162c3d">GPIO0</text>
+<polyline points="910,644 800,644" fill="none" stroke="#354b5c" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="800" cy="644" r="4" fill="#ffffff" stroke="#354b5c" stroke-width="2"/>
+<circle cx="735" cy="644" r="4" fill="#ffffff" stroke="#354b5c" stroke-width="2"/>
+<polyline points="800,644 745,624" fill="none" stroke="#354b5c" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="735,644 690,644" fill="none" stroke="#354b5c" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="690,644 690,654" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="675,654 705,654" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="680,660 700,660" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="685,666 695,666" fill="none" stroke="#354b5c" stroke-width="2" stroke-linejoin="round"/>
+<text x="780" y="715" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="middle" fill="#162c3d">Temporary GPIO0-to-GND link</text>
+<text x="780" y="744" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="middle" fill="#162c3d">Fit for upload + reset. Remove for run + reset.</text>
+<rect x="805" y="795" width="545" height="110" fill="#f4f7fa" stroke="#aabac4" stroke-width="2"/>
+<text x="1077.5" y="833" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#162c3d">NodeMCU programming</text>
+<text x="1077.5" y="868" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" fill="#526675">Use its own USB port. Motor power OFF.</text>
+<text x="1077.5" y="896" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" fill="#526675">Disconnect external 5 V to avoid USB back-feed.</text>
+<text x="48" y="946" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#526675">An ESP32-CAM-MB programmer may handle boot mode automatically; follow its own power/boot instructions.</text>
+</svg>

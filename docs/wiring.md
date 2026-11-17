@@ -1,5 +1,7 @@
 # Wiring and power
 
+For the illustrated GPIO connections, wireless data paths and camera-programming wiring, see the **[data-wiring diagrams and guide](data-wiring.md)** or download the **[three-page schematic PDF](diagrams/data-wiring-pack.pdf)**.
+
 Use the **two ESP32-CAM boards for cameras** and **one NodeMCU ESP32S for motor control**. The second NodeMCU is spare. Camera signals remain on their own boards; do not wire camera pins to the NodeMCU.
 
 ## NodeMCU to L298N

@@ -1,0 +1,74 @@
+[
+  {
+    "wheel": "Front left",
+    "driver": 1,
+    "input_pins": [
+      16,
+      17
+    ],
+    "enable_gpio": 25,
+    "enable": "ENA",
+    "inputs": [
+      "IN1",
+      "IN2"
+    ],
+    "outputs": [
+      "OUT1",
+      "OUT2"
+    ]
+  },
+  {
+    "wheel": "Front right",
+    "driver": 1,
+    "input_pins": [
+      18,
+      19
+    ],
+    "enable_gpio": 26,
+    "enable": "ENB",
+    "inputs": [
+      "IN3",
+      "IN4"
+    ],
+    "outputs": [
+      "OUT3",
+      "OUT4"
+    ]
+  },
+  {
+    "wheel": "Rear left",
+    "driver": 2,
+    "input_pins": [
+      21,
+      22
+    ],
+    "enable_gpio": 27,
+    "enable": "ENA",
+    "inputs": [
+      "IN1",
+      "IN2"
+    ],
+    "outputs": [
+      "OUT1",
+      "OUT2"
+    ]
+  },
+  {
+    "wheel": "Rear right",
+    "driver": 2,
+    "input_pins": [
+      23,
+      32
+    ],
+    "enable_gpio": 33,
+    "enable": "ENB",
+    "inputs": [
+      "IN3",
+      "IN4"
+    ],
+    "outputs": [
+      "OUT3",
+      "OUT4"
+    ]
+  }
+]
